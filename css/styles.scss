@@ -71,10 +71,40 @@ body {
     }
 }
 
-#carouselbutton {
+#carouselButton {
     right: 0px;
     position: absolute;
     bottom: 0px; 
+}
+
+#loginModal {
+    .close {
+        color: $lt-gray; 
+    }
+
+    .modal-header {
+        background-color: $background-dark;
+        color: $lt-gray; 
+    }
+
+    .modal-body {
+        background-color: $background-pale;
+    }
+}
+
+#reserveModal {
+    .close {
+        color: $lt-gray; 
+    }
+
+    .modal-header {
+        background-color: $background-dark;
+        color: $lt-gray;
+    }
+
+    .modal-body {
+        background-color: $background-pale; 
+    }
 }
 
 
